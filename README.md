@@ -82,6 +82,25 @@ To use a different Ollama model, add a `"model"` key to the config file:
 
 The default model is `llama3.2`.
 
+## Example Output
+```
+$ fitcheck check
+
+Analyzing with llama3.2...
+
+Fit: 8/10
+
+Strong match overall. Your 5 years of experience with Python and Django aligns 
+well with their stack. Remote preference matches their flexible work policy. 
+The role emphasizes PostgreSQL and Docker, both in your skill set.
+
+Minor gaps: They mention Kubernetes experience as a plus, which isn't in your 
+profile. The role leans heavily on fintech domain knowledge, which may require 
+a learning curve.
+
+Saved to ~/fitcheck/jobs/acme_corp_senior_engineer.txt
+```
+
 ## Planned
 
 - ATS keyword scan: compare the job description against your profile to surface missing keywords that applicant tracking systems commonly filter on.
