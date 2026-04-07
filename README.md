@@ -23,6 +23,16 @@ source .venv/bin/activate
 python -m pip install -e .
 ```
 
+> **macOS + Python 3.14+:** Setuptools editable installs create a `.pth` file
+> prefixed with `__editable__`, which macOS marks as hidden. Python 3.14 skips
+> hidden `.pth` files, breaking the install. Fix it with:
+>
+> ```bash
+> chflags nohidden .venv/lib/python*/site-packages/__editable__*.pth
+> ```
+>
+> The `make install` target handles this automatically.
+
 ## First run
 
 Run `fitcheck` with no arguments to set up your profile:
