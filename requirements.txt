@@ -1,2 +1,3 @@
 ollama
 pyperclip
+pytest
