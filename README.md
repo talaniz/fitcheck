@@ -18,6 +18,10 @@ A decision support tool for job applications powered by local AI.
 
 ## Installation
 
+### Using PyPi
+`pip install fitcheck`
+
+### Using Git
 ```bash
 git clone https://github.com/talaniz/fitcheck.git
 cd fitcheck
@@ -86,12 +90,15 @@ To use a different Ollama model, add a `"model"` key to the config file:
 The default model is `llama3.2`.
 
 ## Example Output
+
+For more details, see the [Risk Factors](docs/risk_factor.md) documentation.
 ```
 $ fitcheck check
 
 Analyzing with llama3.2...
 
 Fit: 8/10
+Risk: 45/100 — Moderate risk — apply but don't over-invest
 
 Strong match overall. Your 5 years of experience with Python and Django aligns 
 well with their stack. Remote preference matches their flexible work policy. 
