@@ -3,7 +3,7 @@
 
 # fitcheck
 
-A CLI tool that analyzes your fit against a job posting using a local LLM via Ollama.
+A decision support tool for job applications powered by local AI.
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ A CLI tool that analyzes your fit against a job posting using a local LLM via Ol
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/fitcheck.git
+git clone https://github.com/talaniz/fitcheck.git
 cd fitcheck
 python -m venv .venv
 source .venv/bin/activate
