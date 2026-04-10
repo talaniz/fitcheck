@@ -1,4 +1,5 @@
 ![Tests](https://github.com/talaniz/fitcheck/actions/workflows/tests.yml/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/YOUR_USERNAME/YOUR_REPO/badge.svg?branch=main)](https://coveralls.io/github/talaniz/fitcheck?branch=main)
 
 # fitcheck
 
