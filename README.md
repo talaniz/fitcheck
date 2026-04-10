@@ -1,3 +1,5 @@
+![Tests](https://github.com/talaniz/fitcheck/actions/workflows/tests.yml/badge.svg)
+
 # fitcheck
 
 A CLI tool that analyzes your fit against a job posting using a local LLM via Ollama.
