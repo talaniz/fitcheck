@@ -97,19 +97,3 @@ The risk score is a tool, not a verdict. A high score does not mean you should n
 Targeted applications to companies that are actively hiring — recent activity on LinkedIn, teams that are growing, roles posted in the last two to three weeks — will always outperform volume applications to listings that have been sitting since January.
 
 The risk score helps you allocate your effort where it is most likely to pay off.
-
-## Usage
-
-Run the risk score alongside your fit assessment:
-
-```bash
-fitcheck check <job_description>
-```
-
-fitcheck will prompt you for the inputs it needs to calculate your risk score and include it in the final report.
-
-For post-interview risk assessment:
-
-```bash
-fitcheck check <job_description> --post-interview
-```
